@@ -81,6 +81,8 @@ contract JointSavings {
     function setAccounts(address payable account1, address payable account2) public{
 
         // Set the values of `accountOne` and `accountTwo` to `account1` and `account2` respectively.
+        account1 = 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb;
+        account2 = 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0;
         accountOne = account1;
         accountTwo = account2;
     }
@@ -91,3 +93,4 @@ contract JointSavings {
     function() external payable {
     }
 }
+
